@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on My Portfolio</title>
+    <link>https://snoymy.github.io/</link>
+    <description>Recent content in About Me on My Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright 2022, Bhunnathon Treelertsakul</copyright><atom:link href="https://snoymy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experiences</title>
+      <link>https://snoymy.github.io/experiences/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/experiences/</guid>
+      <description>INTERNSHIP   .card-container{ background-color: #fff; padding: 15px; margin: 10px 0px; border-radius: 10px; box-shadow: 0px 0px 2px #ccc; } .card-container:hover{ background-color: #fafafa; padding: 15px; margin: 10px 0px; border-radius: 10px; box-shadow: 0px 0px 2px #ccc; } .content-warp{ width: 90%; margin: 0px; } .card-title{ font-size: 20px; } .card-description{ opacity: 0.8; min-height: 50px; text-overflow: ellipsis; overflow: hidden; } a.card-link{ color: inherit; text-decoration: inherit; } a.card-link:hover { color: inherit; text-decoration: inherit; } a.card-link:active{ color: inherit; text-decoration: inherit; }   IoT Home Automation Project    Design and develop If-Then system and API to let user config how devices should work together under the conditions.</description>
+    </item>
+    
+    <item>
+      <title>AI Fall Detector</title>
+      <link>https://snoymy.github.io/all-projects/ai-fall-detector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/all-projects/ai-fall-detector/</guid>
+      <description>AI Fall Detector The perpose of this project is for safty of elder who live alone. When the elder fall down by accident or something else, then program can detect and alert so we can help in time.
+Testing video  .video-player{ z-index: 1 !important; }  Your browser does not support the video tag.     Result testing video     We use MediaPipe Pose module to draw landmark on body to create data for training and predicting.</description>
+    </item>
+    
+    <item>
+      <title>Cashier and Stock Management on Smart Phone</title>
+      <link>https://snoymy.github.io/all-projects/cashier-and-stock-management-on-smart-phone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/all-projects/cashier-and-stock-management-on-smart-phone/</guid>
+      <description>Cashier and Stock Management on Smart Phone The contest is about creating application for logistic. my team has a group of 3 people, named Trooper Team.
+My team develop mobile app for small store that cannot affort large system to manage stock and cashier. In present day everyone has a smartphone, so we create a POS system that fit in smartphone with barcode scanner feature.
+Presentation video  .video-player{ z-index: 1 !</description>
+    </item>
+    
+    <item>
+      <title>Contest</title>
+      <link>https://snoymy.github.io/contest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/contest/</guid>
+      <description>Logistics Intelligence Application Contest   .card-container{ background-color: #fff; padding: 15px; margin: 10px 0px; border-radius: 10px; box-shadow: 0px 0px 2px #ccc; } .card-container:hover{ background-color: #fafafa; padding: 15px; margin: 10px 0px; border-radius: 10px; box-shadow: 0px 0px 2px #ccc; } .content-warp{ width: 90%; margin: 0px; } .card-title{ font-size: 20px; } .card-description{ opacity: 0.8; min-height: 50px; text-overflow: ellipsis; overflow: hidden; } a.card-link{ color: inherit; text-decoration: inherit; } a.card-link:hover { color: inherit; text-decoration: inherit; } a.</description>
+    </item>
+    
+    <item>
+      <title>Fire detector</title>
+      <link>https://snoymy.github.io/all-projects/fire-detector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/all-projects/fire-detector/</guid>
+      <description>Fire detector This project using ESP32 with infared sensor to detect heat and alert to mobile phone via line notify.
+  Flow Chart    Fire detector Flowchart      Testing video  .video-player{ z-index: 1 !important; }  Your browser does not support the video tag.     Result testing video         Result in line notify    </description>
+    </item>
+    
+    <item>
+      <title>IoT Home Automation Project</title>
+      <link>https://snoymy.github.io/all-projects/iot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/all-projects/iot/</guid>
+      <description>IoT Home Automation Project This project is my internship project. My job is about learning how Zigbee Protocol work, design and develops system to work with IoT devices without internet. Also create an API to provide ability for user to config how IoT devices should work together in if-then condition.
+I developed a program that run as service on NanoPi Neo board as a gateway to recieve data from sensors (Zigbee devices) and check value from sensors if the value is match with condition that user had config then trigger the action to other devices.</description>
+    </item>
+    
+    <item>
+      <title>Manga Text Cleaner</title>
+      <link>https://snoymy.github.io/all-projects/manga-text-cleaner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/all-projects/manga-text-cleaner/</guid>
+      <description>Manga Text Cleaner This project use OpenCV and Tesseract OCR to detect text box and balloon.
+Program diagram     Program diagram     Program process in step  1.Find text balloon by finding circle and squre shape        2.Find word to comfirm the shape that have found is text balloon        3.Fill color only shape that have text in side.</description>
+    </item>
+    
+    <item>
+      <title>Other Projects</title>
+      <link>https://snoymy.github.io/other-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/other-projects/</guid>
+      <description>University Projects    .card-container{ background-color: #fff; padding: 15px; margin: 10px 0px; border-radius: 10px; box-shadow: 0px 0px 2px #ccc; } .card-container:hover{ background-color: #fafafa; padding: 15px; margin: 10px 0px; border-radius: 10px; box-shadow: 0px 0px 2px #ccc; } .content-warp{ width: 90%; margin: 0px; } .card-title{ font-size: 20px; } .card-description{ opacity: 0.8; min-height: 50px; text-overflow: ellipsis; overflow: hidden; } a.card-link{ color: inherit; text-decoration: inherit; } a.card-link:hover { color: inherit; text-decoration: inherit; } a.</description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://snoymy.github.io/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/skills/</guid>
+      <description>PROGRAMING   Proficient
+ C/C++ Python    Intermediate
+ JavaScript HTML CSS    Familiar
+ Oracle SQL Lua Java    LIBRARY AND FRAMEWORK  Tensorflow MediaPipe Yolo OpenCV Mosquitto MQTT React.js/React Native Imgui  OTHER  Linux Makefile GCC Bash Git Markdown MQTT Protocol Zigbee Protocol TCP Zigbee2MQTT  </description>
+    </item>
+    
+    <item>
+      <title>Smart CCTV</title>
+      <link>https://snoymy.github.io/all-projects/smart-cctv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/all-projects/smart-cctv/</guid>
+      <description>Smart CCTV This job I recieve from my professor from university, working together with another student. My job is develop CCTV program to detect thief using machine learning and other algorithms to detect and predict situation and give score to estimate risk.
+Some of example video from the project  .video-player{ z-index: 1 !important; }  Your browser does not support the video tag.     Testing face detection for finding helmet and mask      .</description>
+    </item>
+    
+    <item>
+      <title>Smart Home Model</title>
+      <link>https://snoymy.github.io/all-projects/smart-home-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/all-projects/smart-home-model/</guid>
+      <description>Smart Home Model This project using STM32 Microcontroller to read data from sensor and control light or fan in the house.
+   House model    Full Circuit    Full circuit    Circuit design Fan - motor and temperature sensor    Motor and temperature circuit design       Hardware example      Lamp - LED and LDR    LED and LDR circuit design       Hardware example      Top Light - LED and Ultrasonic sensor    LED and Ultrasonic circuit design       Hardware example    Presentation video  .</description>
+    </item>
+    
+    <item>
+      <title>Web Front-end</title>
+      <link>https://snoymy.github.io/all-projects/web-front-end/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snoymy.github.io/all-projects/web-front-end/</guid>
+      <description>Web Front-end This project is a thesis of my friend from different major who don&amp;rsquo;t know how to code asking me for help to develop form on website to open bag order and show status.
+Web preview video  .video-player{ z-index: 1 !important; }  Your browser does not support the video tag.     Web preview video - open paper bag order      .</description>
+    </item>
+    
+  </channel>
+</rss>

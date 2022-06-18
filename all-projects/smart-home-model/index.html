@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en"><head>
+    <title>Smart Home Model</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A house model is using STM32 Microcontroller withsensors to control light and fan in house model." />
+
+    
+    
+    
+    <link rel="stylesheet" href="../../css/theme.min.css">
+
+    
+    
+    
+
+    
+</head>
+<body>
+        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+    <div class="row">
+        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
+            <a href="../../" class="text-decoration-none">
+                <img id="home-image" class="rounded-circle"
+                    
+                        
+                            src="../.././images/avatar.png"
+                        
+                    
+                />
+            </a>
+        </div>
+        <div class="col-sm-8 col-12 text-sm-left text-center">
+            <h2 class="m-0 mb-2 mt-4">
+                <a href="../../" class="text-decoration-none">
+                    
+                        Bhunnathon Treelertsakul
+                    
+                </a>
+            </h2>
+            <p class="text-muted mb-1">
+                
+                    A Graduated Computer Engineer Student.
+                
+            </p>
+            <ul id="nav-links" class="list-inline mb-2">
+                
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../" title="About Me">About Me</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../experiences/" title="Experiences">Experiences</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../contest/" title="Contest">Contest</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../other-projects/" title="Other Projects">Other Projects</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../skills/" title="Skills">Skills</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../all-projects/" title="All Projects">All Projects</a>
+                    </li>
+                
+            </ul>
+            <ul id="nav-social" class="list-inline">
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="http://github.com/snoymy" target="_blank">
+                            <i class="fab fa-github fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+    <hr />
+</header>
+<div class="container">
+    <div class="pl-sm-4 ml-sm-5">
+        <h3 id="smart-home-model">Smart Home Model</h3>
+<p>This project using STM32 Microcontroller to read data from sensor and control light or fan in the house.</p>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/smart-home-model/house.png"
+    alt=""
+    width=60%
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             House model
+         </i>
+      </p>
+  </center>
+</div>
+
+<h4 id="full-circuit">Full Circuit</h4>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/smart-home-model/architectureboard.png"
+    alt=""
+    width=70%
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             Full circuit
+         </i>
+      </p>
+  </center>
+</div>
+
+<h4 id="circuit-design">Circuit design</h4>
+<h5 id="fan---motor-and-temperature-sensor"><strong>Fan - motor and temperature sensor</strong></h5>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/smart-home-model/motor.png"
+    alt=""
+    width=70%
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             Motor and temperature circuit design
+         </i>
+      </p>
+  </center>
+</div>
+
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/smart-home-model/fan.png"
+    alt=""
+    width=70%
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             Hardware example
+         </i>
+      </p>
+  </center>
+</div>
+
+
+
+
+
+
+<br/>
+
+<br/>
+
+
+<h5 id="lamp---led-and-ldr"><strong>Lamp - LED and LDR</strong></h5>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/smart-home-model/lamp-circuit.png"
+    alt=""
+    width=70%
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             LED and LDR circuit design
+         </i>
+      </p>
+  </center>
+</div>
+
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/smart-home-model/lamp.png"
+    alt=""
+    width=70%
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             Hardware example
+         </i>
+      </p>
+  </center>
+</div>
+
+
+
+
+
+
+<br/>
+
+<br/>
+
+
+<h5 id="top-light---led-and-ultrasonic-sensor"><strong>Top Light - LED and Ultrasonic sensor</strong></h5>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/smart-home-model/houselight.png"
+    alt=""
+    width=70%
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             LED and Ultrasonic circuit design
+         </i>
+      </p>
+  </center>
+</div>
+
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/smart-home-model/toplight.png"
+    alt=""
+    width=70%
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             Hardware example
+         </i>
+      </p>
+  </center>
+</div>
+
+<h4 id="presentation-video">Presentation video</h4>
+
+
+
+
+
+<div style="text-align: center;">
+    <style>
+        .video-player{
+            z-index: 1 !important;
+        }
+    </style>
+    <video class="video-player"  width=100%   controls autoplay loop>
+        <source src=../../assets/smart-home-model/presentation-video.mp4 type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <center>
+      <p>
+          <i>
+             Presentation video
+         </i>
+      </p>
+    </center>
+</div>
+
+
+
+    </div>
+
+    
+
+            </div>
+        </div><footer class="text-center pb-1" style="margin-top: 100px">
+    <small class="text-muted">
+        
+            &copy; Copyright 2022, Bhunnathon Treelertsakul
+        
+        <br>
+        Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
+        and modified theme base on <a href="https://github.com/austingebauer/devise" target="_blank">Devise</a>
+    </small>
+</footer>
+</body>
+</html>

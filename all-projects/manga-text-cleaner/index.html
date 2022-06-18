@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en"><head>
+    <title>Manga Text Cleaner</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Use OpenCV and OCR to find text box in manga page and wipe it out." />
+
+    
+    
+    
+    <link rel="stylesheet" href="../../css/theme.min.css">
+
+    
+    
+    
+
+    
+</head>
+<body>
+        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+    <div class="row">
+        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
+            <a href="../../" class="text-decoration-none">
+                <img id="home-image" class="rounded-circle"
+                    
+                        
+                            src="../.././images/avatar.png"
+                        
+                    
+                />
+            </a>
+        </div>
+        <div class="col-sm-8 col-12 text-sm-left text-center">
+            <h2 class="m-0 mb-2 mt-4">
+                <a href="../../" class="text-decoration-none">
+                    
+                        Bhunnathon Treelertsakul
+                    
+                </a>
+            </h2>
+            <p class="text-muted mb-1">
+                
+                    A Graduated Computer Engineer Student.
+                
+            </p>
+            <ul id="nav-links" class="list-inline mb-2">
+                
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../" title="About Me">About Me</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../experiences/" title="Experiences">Experiences</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../contest/" title="Contest">Contest</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../other-projects/" title="Other Projects">Other Projects</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../skills/" title="Skills">Skills</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../all-projects/" title="All Projects">All Projects</a>
+                    </li>
+                
+            </ul>
+            <ul id="nav-social" class="list-inline">
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="http://github.com/snoymy" target="_blank">
+                            <i class="fab fa-github fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+    <hr />
+</header>
+<div class="container">
+    <div class="pl-sm-4 ml-sm-5">
+        <h3 id="manga-text-cleaner">Manga Text Cleaner</h3>
+<p>This project use OpenCV and Tesseract OCR to detect text box and balloon.</p>
+<h4 id="program-diagram">Program diagram</h4>
+
+
+  
+
+
+<br/>
+
+
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/manga-text-cleaner/flow.png"
+    alt="Flow"
+    width=
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             Program diagram
+         </i>
+      </p>
+  </center>
+</div>
+
+
+
+  
+
+
+<br/>
+
+
+<h4 id="program-process-in-step">Program process in step</h4>
+
+
+  
+
+
+<br/>
+
+
+<h5 id="1find-text-balloon-by-finding-circle-and-squre-shape"><strong>1.Find text balloon by finding circle and squre shape</strong></h5>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/manga-text-cleaner/find-text-box.png"
+    alt=""
+    width=
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             
+         </i>
+      </p>
+  </center>
+</div>
+
+
+
+  
+
+
+<br/>
+
+
+<h5 id="2find-word-to-comfirm-the-shape-that-have-found-is-text-balloon"><strong>2.Find word to comfirm the shape that have found is text balloon</strong></h5>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/manga-text-cleaner/find-word.png"
+    alt=""
+    width=
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             
+         </i>
+      </p>
+  </center>
+</div>
+
+
+
+  
+
+
+<br/>
+
+
+<h5 id="3fill-color-only-shape-that-have-text-in-side-use-pink-color-to-fill-for-example"><strong>3.Fill color only shape that have text in side. (Use pink color to fill for example)</strong></h5>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/manga-text-cleaner/fill-color.png"
+    alt=""
+    width=
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             
+         </i>
+      </p>
+  </center>
+</div>
+
+
+
+  
+
+
+<br/>
+
+
+<h5 id="4fill-with-white-color-version"><strong>4.Fill with white color version</strong></h5>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/manga-text-cleaner/fill-white.png"
+    alt=""
+    width=
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             
+         </i>
+      </p>
+  </center>
+</div>
+
+<div style="margin: 50px 0px;">
+    <center><div style="letter-spacing: 2rem;">⦁⦁⦁</div></center>
+</div>
+
+<p>The reason why we don&rsquo;t use only Tesseract OCR to find text because the image is large compare to the texts in page, so Tesseract OCR can not find text well.</p>
+
+
+
+
+
+
+<div style="text-align: center;">
+  <img
+    src="../../assets/manga-text-cleaner/only-tesseract.png"
+    alt=""
+    width=
+    height=
+    decoding="async"
+  />
+  <center>
+      <p>
+          <i>
+             
+         </i>
+      </p>
+  </center>
+</div>
+
+
+    </div>
+
+    
+
+            </div>
+        </div><footer class="text-center pb-1" style="margin-top: 100px">
+    <small class="text-muted">
+        
+            &copy; Copyright 2022, Bhunnathon Treelertsakul
+        
+        <br>
+        Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
+        and modified theme base on <a href="https://github.com/austingebauer/devise" target="_blank">Devise</a>
+    </small>
+</footer>
+</body>
+</html>
